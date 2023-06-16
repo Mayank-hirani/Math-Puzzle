@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPazeActivity"
+    android:background="@drawable/background"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="𝖒𝖆𝖙𝖍 𝖕𝖚𝖟𝖟𝖑𝖊𝖘"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="45dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blackboard_main_menu"
+        android:scaleY="2.2"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:id="@+id/continew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="𝒄𝒐𝒏𝒕𝒊𝒏𝒆𝒘"
+        android:textColor="@color/white"
+        android:textSize="45dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="𝒑𝒖𝒛𝒛𝒍𝒆𝒔"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:id="@+id/puzzles"/>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_share_24"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="259dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_email_24"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="310dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝐩𝐫𝐢𝐯𝐚𝐜𝐲 𝐩𝐨𝐥𝐢𝐜𝐲"
+        android:layout_marginTop="740dp"
+        android:layout_marginStart="221dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="20dp"/>
+</RelativeLayout>

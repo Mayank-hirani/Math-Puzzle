@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Winpage_Activity"
+    android:background="@drawable/backgrond_firstpaze">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:id="@+id/textwin"/>
+
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/trophy"
+        android:layout_marginTop="20dp"
+        android:foregroundGravity="center"
+        android:layout_below="@+id/textwin"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:id="@+id/wincontinewbutton"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:text="continue"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@+id/trophy"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_winpage"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:id="@+id/mainmenu"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="80dp"
+        android:text="MAIN MENU"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@+id/wincontinewbutton"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_winpage"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:id="@+id/BUYPRO"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="80dp"
+        android:text="buy pro"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@+id/mainmenu"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_winpage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sharetxetview"
+        android:text="SHARE THIS PUZZLE"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_below="@+id/BUYPRO"/>
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_share_24"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="155dp"
+        android:text="buy pro"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@+id/sharetxetview"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_winpage"/>
+</RelativeLayout>
